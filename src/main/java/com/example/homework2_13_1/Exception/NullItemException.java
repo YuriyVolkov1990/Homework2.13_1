@@ -3,7 +3,6 @@ package com.example.homework2_13_1.Exception;
 public class NullItemException extends RuntimeException {
     public NullItemException() {
     }
-
     public NullItemException(String message) {
         super(message);
     }
