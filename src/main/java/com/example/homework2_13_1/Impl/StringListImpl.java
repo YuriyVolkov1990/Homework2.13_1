@@ -10,7 +10,6 @@ import java.util.Arrays;
 public class StringListImpl implements StringList {
     private int size;
     private final String[] m;
-
     public StringListImpl() {
         m = new String[10];
     }

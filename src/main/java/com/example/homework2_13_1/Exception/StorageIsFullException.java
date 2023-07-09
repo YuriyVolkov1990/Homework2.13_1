@@ -3,7 +3,6 @@ package com.example.homework2_13_1.Exception;
 public class StorageIsFullException extends RuntimeException {
     public StorageIsFullException() {
     }
-
     public StorageIsFullException(String message) {
         super(message);
     }

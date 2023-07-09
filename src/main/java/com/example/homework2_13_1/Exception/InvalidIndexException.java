@@ -3,7 +3,6 @@ package com.example.homework2_13_1.Exception;
 public class InvalidIndexException extends RuntimeException {
     public InvalidIndexException() {
     }
-
     public InvalidIndexException(String message) {
         super(message);
     }
